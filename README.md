@@ -1,23 +1,28 @@
-## 说明
+# Minimal Text
 
-此博客模板 Fork 自仓库：[cnfeat/blog.io: 简单直接可用博客模板](https://github.com/cnfeat/blog.io)
+Minimal Text is a clean and lightweight Jekyll Theme
 
-配套说用说明：[如何搭建一个独立博客——简明 GitHub Pages与 jekyll 教程 - 读立写生](http://www.cnfeat.com/blog/2014/05/10/how-to-build-a-blog/)
+## Documentation
 
-## 博客模板修订清单
+__Baseurl__
 
-文档内有详细注释，可按注释逐个修订
+```yaml
+---
+title: Minimal Text
+baseurl: "/Minimal-Text"
+```
+The site baseurl is prepended to asset links and the home button in the `post.html` layout. Please note it must start with a "/"
+By changing this you are changing the location of your website. gh.clarkhacks.com`/Minimal-Text` is the location of Minimal-Text in my case.
 
-* 博客名字、作者信息、浏览器小图标等：_config.yml 
-* 个人介绍页面：about.md
-* 代表作页面：milestone.md
-* 文章模板：blog.io/_posts/2015-03-02-how-to-write.md 
-* 
+__Pagination__
 
-## 模板作者
+```yaml
+paginate: 5
+paginate_path: "/:num/"
+```
+`paginate` in `_config.yml` is the number of post blocks that will appear on a single page.
+`paginate_path` is at what location your blog pages will be displayed.
 
-陈素封，博客：独立写生：[cnfeat.com](cnfeat.com)
+__The documentation has been implemented because of user questions.__ For more documentation to be please request what you need defined.
 
-联系方式：cnfeat@gmail.com
-
-
+![screenshot](screenshot.jpg)
