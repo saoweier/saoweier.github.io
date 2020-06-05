@@ -3115,13 +3115,14 @@ input, select, textarea {
 				-ms-transition-delay: 0s;
 				transition-delay: 0s;
 				display: block;
-				margin: 0 0 1.5em 0;
+				margin: 0 0 1.2em 0;
 			}
 
 				#header.alt .logo img {
 					display: block;
 					margin: 0 auto;
 					max-width: 75%;
+					border-radius: 50%
 				}
 
 		@media screen and (max-width: 1280px) {
